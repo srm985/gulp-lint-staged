@@ -14,7 +14,7 @@
   "keywords": [],
   "license": "ISC",
   "lint-staged": {
-    "*.{js,scss}": [
+    "*": [
       "gulp test",
       "git add"
     ]
