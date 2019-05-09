@@ -4,4 +4,4 @@ function test(callback) {
     callback();
 }
 
-exports.test = test;
+exports.test = test
