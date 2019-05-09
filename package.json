@@ -1,0 +1,28 @@
+{
+  "author": "",
+  "description": "",
+  "devDependencies": {
+    "gulp": "^4.0.2",
+    "husky": "^2.2.0",
+    "lint-staged": "^8.1.6"
+  },
+  "husky": {
+    "hooks": {
+      "pre-commit": "lint-staged"
+    }
+  },
+  "keywords": [],
+  "license": "ISC",
+  "lint-staged": {
+    "*.{js,scss}": [
+      "gulp test",
+      "git add"
+    ]
+  },
+  "main": "index.js",
+  "name": "gulp-lint-staged",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "version": "1.0.0"
+}
